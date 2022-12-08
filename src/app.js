@@ -5,10 +5,10 @@ const day_of_week = (date = new Date())=>{
 }
 
 try {
-    document.getElementById("day").innerHTML = day_of_week();
+    document.getElementById("day").innerText = day_of_week();
     
 } catch (error) {
-    console.log(error)
+   console.log(error)
     
 }
 
