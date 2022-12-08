@@ -8,7 +8,7 @@ test('should return responding day string', () => {
 
     day = day_of_week(new Date('12/6/2022'))
 
-    expect(day).toBe("teusday");  
+    expect(day).toBe("tuesday");  
 
     day = day_of_week(new Date('12/7/2022'))
 
