@@ -8,7 +8,7 @@ try {
     document.getElementById("day").innerText = day_of_week();
     
 } catch (error) {
-    console.log(error)
+   // console.log(error)
     
 }
 
