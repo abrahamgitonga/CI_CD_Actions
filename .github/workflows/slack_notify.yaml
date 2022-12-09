@@ -11,4 +11,4 @@ jobs:
       env:
         SLACK_TITLE: 'Github Slack Notifications'
         SLACK_COLOR: ${{ job.status }}
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_WEBHOOK: ${{ secrets.SLACK_TOKEN }}
